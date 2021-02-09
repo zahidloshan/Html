@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML FORM</title>
+</head>
+<body>
+<h1>Input You Informantion </h1>
+	<form action="/submit.php" target="_self" method="POST">
+		<label for="name">Name : </label>
+		<input type="text" name="sname" id="name">
+
+		<label for="fathername">Father Name : </label>
+		<input type="text" name="fname" id="fathername">
+
+		<br>
+
+		<!-- Dropdown  -->
+		<label for="age">Age Range : </label>
+		<select id="age" name="agerange">
+			<option value="18-25">18-25</option>
+			<option value="26-69">26-69</option>
+		</select>
+
+		<br>
+
+		<!-- Radio  -->
+		<label>Gender : </label>
+		<input type="Radio" name="Gender" value="Male" id="male">
+		<label for="male">Male</label>
+		<input type="Radio" name="Gender" value="Fmale" id="fmale">
+		<label for="fmale">Fmale</label>
+         <br>
+		<!-- Password  -->
+		<label for="Password">Password</label>
+		<input type="Password" name="pass" id="Password">
+         
+         <!-- Date Time-->
+        <br>
+        <label for="date">Date : </label> 
+		<input type="date" name="date" id="date">
+		<input type="datetime-local" name="">
+
+		<!-- Check box -->
+		<br>
+		<u>
+			<label>Select Option : </label>
+		</u>
+		
+		<input type="checkbox" name="input" value="SSC">
+		<label>SSC</label>
+		<input type="checkbox" name="input" value="HSC">
+		<label>HSC</label>
+
+		<br>
+
+		<!-- Submit Button -->
+		<input type="submit" value="Add">
+
+		<!--  Button -->
+		<button> W3School</button>
+
+		<a href="https://www.w3schools.com/html/html_form_input_types.asp" target="_blank" >For more details 
+	    </a>
+
+	
+	</form>
+
+	 <a href='https://www.freecodecamp.org/'><button>Link To freeCodeCamp</button></a>
+</body>
+</html>

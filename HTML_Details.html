@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="weight=device-weight,initial-scale=1.0">
+	<title>HTML Page</title>
+
+	<style>
+		.c1{
+			color: red;
+			border: 1px solid green;
+			font-size: 20px;
+		}
+		#i1{
+			color: #FF5733;
+			font-size: 25px; 
+		}
+		table,th,td{
+			color: black;
+			border: 2px solid green;
+		}
+	</style>
+</head>
+<body>
+	<h1>Heading 1 </h1>
+	<h2>Heading 2 </h2>
+	<h3>Heading 3 </h3>
+	<h4>Heading 4 </h4>
+	<h5>Heading 5 </h5>
+	<h6>Heading 6 </h6>
+
+	<hr>
+
+	<p>This is paragraph 1</p>
+	<p><b>This is paragraph 2</p>
+		<!-- Inline CSS -->
+	<p style="color: blue ">This is paragraph for Css 1</p>
+	<p style="color: red;border: 2px solid green">This is paragraph for css 2</p>
+
+	<!-- Internal CSS -->
+	<p class="c1"> This Inernal CSS 1 </p>	
+	<p class="c1"> This Inernal CSS 2 </p>	
+	<p id="i1"> This Inernal CSS 3 </p>	
+
+	<!-- Block Element vs Inline Element -->
+
+	<!-- Block Element -->
+	<div>This is Block Element</div>
+	<div>This is Block Element </div>
+
+	<!-- Inline Element -->
+	<span>Inline Elemnet</span>
+	<br>
+	<span>Inline Elemnet</span>
+
+	<br>
+
+	<p> 
+	<a href="https://zahidloshan.github.io/Html/Bangladesh.html" target="_blank"> Bangladesh </a>              
+	</p>
+
+	<br>
+	<!--How to use an image as a link in HTML  -->
+   <a href="https://www.aiub.edu" target="_blank"><img src="download.jpg" alt="User Image" style="height: 200px;width: 200px"></a>
+
+
+   <br>
+	<img src="download.jpg" alt="User Image" style="height: 200px;width: 200px">
+<br>
+  <!-- Tables -->
+    <table>
+    	<tr>
+    		<th>
+    			Student Name
+    		</th>
+    		<th>
+    			Student ID 
+    		</th>
+    	</tr>
+    	<tr>
+    		<td>
+    			Zahid Hasan Loshan
+    		</td>
+    		<td>
+    			18-38160-2
+    		</td>
+    	</tr>
+
+    	<tr>
+    		<td>
+    			Fahmee Abdullah Al
+    		</td>
+    		<td>
+    			18-38205-2
+    		</td>
+    	</tr>
+    </table>
+   <!--lIST Unordered HTML List -->
+   <ul>
+		<li>Tea</li>
+		<li>Coffee</li>
+	</ul>
+    <!--lIST Ordered HTML List -->
+	<ol>
+		<li>Tea</li>
+		<li>Coffee</li>
+	</ol>
+
+
+<!-- Description List -->
+
+	<dl>
+		<dt>Tea</dt>
+		<dd>It the best tea in the world</dd>
+		<dt>Coffee</dt>
+		<dd>It the best Coffee in the world</dd>
+	</dl>
+
+	<!-- javascript -->
+	<p id="i2">This content will be modified.</p>
+	<script>
+		var element = document.getElementById('i2');
+		element.innerHTML = "Content update";
+		element.style.color = "red";
+	</script>
+
+</body>
+</html>
